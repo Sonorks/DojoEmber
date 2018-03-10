@@ -26,7 +26,6 @@ body{
 
 .list .todos{
     height:70vh;
-    overflow-y: scroll;
 }
 
 .lists-container{
@@ -65,5 +64,4 @@ body{
 
 .from-hide{
     display: none;
-
 }
