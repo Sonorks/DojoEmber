@@ -1,49 +1,69 @@
 body{
-    background: #EC6A10;
- }
- .title {
+    background-color: #F97931;
+}
+
+.title {
     font-family: 'Lobster', cursive;
     color:#fff;
-    font-size: 38px;
- }
- .titles_list{
+    font-size: 35px;
+}
+
+.titles_list{
     text-align: center;
-    margin:25px;
-    color:white;
+    margin:20px;
+    color: white;
     font-size: 26px;
     margin: 20px 0px;
     font-weight: bold;
- }
- .list h2{
-    height: 1.2em;
+    text-decoration: solid;
+}
+
+.list h2{
+    height:1.2em;
     font-size: 18px;
-    margin:5px  0;
- }
- 
- .list .todos{
-    height: 80 vh;
-    overflow-y:hidden ;
-    margin: 10px;
- }
- 
- .lists > div{
-    background-color: #A15521 ;
-    display: inline-block;
+    margin: 5px ;
+}
+
+.list .todos{
+    height:70vh;
+    overflow-y: scroll;
+}
+
+.lists-container{
     width: 100%;
-    max-width: 350px;
-    height: auto;
+    overflow-x: scroll;
+}
+
+.infinite-width{
+    white-space: nowrap;
+}
+
+.new-list input[type='submit']{
+    margin-top:0.8em; 
+}
+
+.lists > div {
+    background-color: #8E3300 ;
+    display: inline-block;
+    width: 300px;
     vertical-align: top;
     margin-right: 1em;
-    padding:10px;
-    box-shadow: 1px 1px 10px 0.5px #000;
- }
+    padding: 10px;
+}
 
- .infinite-width{
-    white-space: nowrap;
- }
- .new-list input[type="submit"]{
-    margin-top: 0.8em;
- }
- .new-list{
+.new-list{
     padding: 1em;
- }
+}
+
+.card{
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border-bottom: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.from-hide{
+    display: none;
+
+}
